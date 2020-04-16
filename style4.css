@@ -1,0 +1,80 @@
+body{
+	background-color: #008000;
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50% -50%);
+	text-align: center;
+}
+.container h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+.button{
+	background: #fff;
+	padding: 10px 15px;
+	color: #34195e;
+	font-weight: bolder;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 6px 6px 20px -4px rgba(0,0,0,0.75);
+	margin-top: 25px;
+	text-decoration: none;
+	transition: 0.4s;
+
+
+}
+.button:hover{
+	background: #34195e;
+	color: #fff;
+}
+.popup{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+}
+.mum{
+	height: 370px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+.popup-content2{
+	height: 250px;
+	width: 500px
+	background:#fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+.img2{
+	height: 100px;
+}
+.card2{
+	max-width: 34%;
+	max-height: 25%;
+	top: 40%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.img2{
+	max-height: 35px;
+	max-width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	border-radius: 50px;
+	cursor: pointer;
+}

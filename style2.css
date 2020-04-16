@@ -1,0 +1,16 @@
+.card{
+	background: green;
+	width: 500px;
+	height: 400px
+	top: 0;
+	display:none;
+	justify-content: center;
+	align-items: center;
+	margin-left: 700px;
+	margin-top: 10px;
+}
+
+	
+	.card-body{
+		width: 500px;
+	}

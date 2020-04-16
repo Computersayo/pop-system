@@ -1,0 +1,81 @@
+body{
+	background-image: url(img/22.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.form{
+	background: #fff;
+	width: 500px;
+	height: 370px;
+	top: 0;
+	display:none;
+	justify-content: center;
+	align-items: center;
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.h4{
+	text-transform: uppercase;
+	background: grey;
+	color: black;
+}
+.km{
+	height: 420px;
+	width: 500px;
+	background: #e6e6fa;
+}
+.close{
+	max-width: 35px;
+	max-height: 35px;
+	position: absolute;
+	right: 290px;
+	top: 83px;
+	color:  red;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.register{
+	background: #f0f8ff;
+	width: 500px;
+	height: 400px
+	top: 0;
+	display:none;
+	justify-content: center;
+	align-items: center;
+	margin-left: 700px;
+	margin-top: 10px;
+
+
+}
+.card{
+	height: 530px;
+	width: 500px;
+	background: #e6e6fa;
+	background-color: blue;
+}
+.card h5{
+	text-transform: uppercase;
+
+}
+.close2{
+	max-height: 35px;
+	max-width: 35px;
+	position: absolute;
+	border-radius: 20px;
+	top: -5px;
+	right: -7px;
+}
+.max{
+		max-width: 35px;
+	max-height: 35px;
+	position: absolute;
+	right: -2px;
+	top: -2px;
+	color:  red;
+	border-radius: 30px;
+	cursor: pointer;
+
+	}
